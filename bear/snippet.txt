@@ -1,0 +1,15 @@
+<model-viewer src="黑熊.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+    <button class="Hotspot" slot="hotspot-2" data-surface="0 0 2097 1953 2277 92.379 20.861 -112.239" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">黑熊
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
